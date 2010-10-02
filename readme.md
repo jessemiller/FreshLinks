@@ -23,6 +23,7 @@ Assuming `yourappname` is available this will create a domain for you like `your
   git push heroku master
   
 To then setup your FreshBooks account follow these steps:
+
 - Login to your FreshBooks account
 - Click on the 'My Account' link
 - Click on the 'FreshBooks API' tab
@@ -37,6 +38,7 @@ That should be it!  Assuming everything is deployed properly that callback shoul
 Fresh Links will dynamically load controllers based on the event coming from FreshBooks.  So if you'd like to add on functionality to a invoice.create event, simply create a InvoiceCreate class in the controllers directory.  See CallbackVerify for an example.
 
 More documentation coming soon, covering
+
 - more examples of how to use
 - possible security issues
 
