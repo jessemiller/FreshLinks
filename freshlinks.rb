@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'sinatra'
 require 'ruby-freshbooks'
+require 'api_config'
 Dir[File.dirname(__FILE__) + '/controllers/*.rb'].each {|file| require file }
 
 get '/callback' do
