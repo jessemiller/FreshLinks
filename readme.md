@@ -6,21 +6,21 @@ Fresh Links connects your FreshBooks account to the outside world.  Using FreshB
 
 First clone yourself a copy of Fresh Links
 
-  git clone git@github.com:jessemiller/FreshLinks.git
+	git clone git@github.com:jessemiller/FreshLinks.git
   
 Then edit `api_config.rb` and fill in your FreshBooks url and API authentication token.
 
 I suggest deploying to [heroku](http://heroku.com/ "Heroku").  If you haven't used heroku you will have to install the heroku gem first.
 
-  sudo gem install heroku
+	sudo gem install heroku
   
 Then from within your checked out Fresh Links directory initialize your heroku app.
 
-  heroku create yourappname
+	heroku create yourappname
   
 Assuming `yourappname` is available this will create a domain for you like `yourappname.heroku.com`. You can finally deploy your app completely using git by pushing it to heroku.
 
-  git push heroku master
+	git push heroku master
   
 To then setup your FreshBooks account follow these steps:
 
@@ -41,4 +41,3 @@ More documentation coming soon, covering
 
 - more examples of how to use
 - possible security issues
-
